@@ -2,3 +2,5 @@ dev-game
 dev-game-client
 
 .idea
+.env
+data
