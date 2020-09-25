@@ -13,8 +13,8 @@ ENV NODE_ENV=docker
 RUN git clone https://github.com/wil92/dev-game-client.git
 RUN git clone https://github.com/wil92/dev-game.git
 
-COPY client-config.js /dev-game-client/src/config.js
 RUN cd /dev-game-client;npm install
+COPY client-config.js /dev-game-client/src/config.js
 RUN cd /dev-game-client;npm run build
 
 # nginx configuration
