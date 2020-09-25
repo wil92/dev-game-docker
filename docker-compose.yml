@@ -2,7 +2,7 @@ version: '3'
 
 services:
   game:
-    image: ggjnez92/dev-game:1.3
+    image: ggjnez92/dev-game:1.4
     restart: always
     container_name: 'dev-game'
     ports:
